@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antonio N.</title>
+    <link rel="icon" href="src/img/blachole.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/index.css">
+    <link rel="stylesheet" href="src/media.css">
+    <!-- BTT -->
+    <link rel="stylesheet" href="../src/jquery.back-to-top.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <h2><a href="#" style='cursor:default'>Antonio</a></h2>
+        <nav>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tech">Techs</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a  onclick="openNav()" href="#">Socials</a></li>
+        </nav>
+    </header>
+    <!-- Sidebar -->
+    <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a target='_blank' href="mailto:antonionetodev@yahoo.com"><li class='fas fa-envelope fa-2x'></li></a>
+            <a target='_blank' href="https://twitter.com/NietDev"><li class='fab fa-twitter fa-2x'></li></a>
+            <a target='_blank' href="https://api.whatsapp.com/send?phone=55031981070021"><li class='fab fa-whatsapp fa-2x'></li></a>
+            <a target='_blank' href="https://twitch.tv/nietdev"><li class='fab fa-twitch fa-2x'></li></a>
+      </div>
+    <!-- Landing img -->
+    <section class="banner">
+        <div class="banner-img"></div>
+    </section>
+    <!-- About -->
+    <section class="about-area" id='about'>
+<h3 class='section-title first'>About me</h3></br></br>
+<ul class="about-content">
+    <li class="about-left"></li>
+    <li class="about-right">
+        <h2>DEV STUDENT</h2>
+        <p style="text-align:justify;">I am a computer science freshman student from brazil, born in 2003. I love to learn new stuff, especially the ones that are related to the universe and programming. I am more into AI development, but I used to study some web development; I created this website while practicing and ended up liking it... ❤️ cats.</p>
+        <a target='_blank' href="https://github.com/antonioniet"><button class="about-btn" style='border:none; outline:none; cursor:pointer;'>Github</button></a>
+    </li>
+</ul>
+    </section>
+    <!-- Tech -->
+    <section class="tech-area" id='tech'>
+        <h3 class='section-title'>Techs</h3></br></br></br>
+<ul class="tech-content">
+    <li>
+        <i class='fab fa-python'></i>
+        <h4>PYTHON</h4>
+        <p>In the long term I want to work with something like python. I really enjoy coding science related stuff, and it is my favorite language for that.</p>
+    </li>
+    <li>
+        <i class="fab fa-cuttlefish"></i>
+        <h4>C</h4>
+        <p>The language Im currently using the most in college. Hard to learn, but quite rewarding when you do.</p>
+    </li>
+</ul>
+    </section>
+<!-- Contact -->
+    <div id='contact'>
+        <h3 class='section-title' style='color:white;'>Contact</h3></br></br></br>
+        <div class='contact'>
+        <form netlify>
+            <input type="text" name='email' placeholder='Your email'>
+            <input type="text" name='name' placeholder='Your name'>
+            <input type="text" name='message' placeholder='Your message'>
+            <input class='btn' type="submit" value='Submit'>
+        </form>
+    </div>    
+    </div> 
+</br></br></br></br></br></br>
+
+  <footer style='background-color:#1A091F;'>
+    <p><i class="fas fa-copyright"></i> <script>document.write(new Date().getFullYear())</script></p>
+  </footer>
+
+    <!-- JQUERY -->
+    <a href="#" class="bck"></a>   
+	<script  src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
+	<script src="../src/jquery.back-to-top.js"></script>
+   <script>	$(function(){		
+    $('.bck').backToTop();		
+});
+
+function openNav() {
+	document.getElementById("mySidenav").style.width = "100%";
+  }
+  function closeNav() {
+	document.getElementById("mySidenav").style.width = "0";
+  }
+</script>
+
+</body>
+</html>
